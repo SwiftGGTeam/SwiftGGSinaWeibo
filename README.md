@@ -14,16 +14,15 @@
 
 ## 注意
 
-该代码 [requests](http://docs.python-requests.org/en/master/)、[rsa](https://pypi.python.org/pypi/rsa) 和 [beautifulsoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)，没有安装的话需要先安装：
+该代码依赖于 [requests](http://docs.python-requests.org/en/master/)、[rsa](https://pypi.python.org/pypi/rsa) 和 [beautifulsoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)，没有安装的话需要先安装：
 
 ```
 pip install rsa
 pip install requests
 pip install beautifulsoup4
-
 ```
 
-如果你的微博登录时要输入验证码，该代码是登录不成功的。
+如果你的微博登录时要输入验证码，则无法使用该代码进行登录。
 
 ## License
 
